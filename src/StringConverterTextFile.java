@@ -43,8 +43,8 @@ public class StringConverterTextFile
                     else
                     {
                         nextChar = (char) (((int) lineCharacters) + 1);
-                        encryptedString = encryptedString + nextChar;
                     }
+                    encryptedString = encryptedString + nextChar;
                 }
                 line = inFile.readLine();
                 System.out.println(encryptedString);

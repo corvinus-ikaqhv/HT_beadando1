@@ -38,8 +38,8 @@ public class StringConverterUserInput
             else
             {
                 nextChar = (char) (((int) userInputCharacthers[i]) + 1);
-                encryptedString = encryptedString + nextChar;
             }
+            encryptedString = encryptedString + nextChar;
         }
         System.out.println(encryptedString);
     }
